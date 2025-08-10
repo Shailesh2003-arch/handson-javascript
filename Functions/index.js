@@ -74,6 +74,7 @@ setTimeout(function () {
 
 /*Arrow function is a shorter syntax for traditional function where we dont have access to 'this' keyword.*/
 // for example:
+
 const Header = () => {
   console.log(`Hello from arrow function`);
 };
@@ -96,6 +97,7 @@ sayHii(); // executes the function with default parameter...
 sayHii("Shailesh"); // executes the function with this argument...
 
 // 6) Immediately invoked function expression (IIFE)...
+
 // Immediately invoked function expression gets executed as soon as its defined...
 // for example:
 
