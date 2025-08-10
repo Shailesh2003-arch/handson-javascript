@@ -69,6 +69,61 @@ doHomework("Maths", completedHomework);
 
 */
 
+// 4) Anonymous functions...
+
+/* Anonymous function is a function which doesnt have any name defined for it!...
+This kind of function aren't reusable and can be just used once...
+for example : 
+
+setTimeout(function () {
+  console.log(`Hello shaill`);
+}, 3000);
+
+
+*/
+
+// 5) Arrow function...
+/*
+Arrow function is a shorter syntax for traditional function where we dont have access to 'this' keyword...
+
+for example:
+
+const Header = () => {
+  console.log(`Hello from arrow function`);
+};
+
+Header();
+
+//  arrow function with argument...
+const sayHello = (name) => {
+  console.log(`Hello!, ${name}`);
+};
+
+sayHello("Kshitij");
+
+// function with default parameter...
+const sayHii = (name = "Riyansh") => {
+  console.log(`Hey!, ${name}`);
+};
+
+sayHii(); // executes the function with default parameter...
+sayHii("Shailesh"); // executes the function with this argument...
+
+*/
+
+// 6) Immediately invoked function expression (IIFE)...
+/*
+Immediately invoked function expression gets executed as soon as its defined...
+for example:
+
+(function sayBye() {
+  console.log(`Bye bye!...`);
+})();
+
+this function doesn't need to be invoked manually as it's invoked the moment we defined it using the paranthesis.
+
+*/
+
 // const names = ["shailesh", "megha", "nilesh"];
 
 // console.log(names.length);
